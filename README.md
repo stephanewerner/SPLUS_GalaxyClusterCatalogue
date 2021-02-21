@@ -24,7 +24,7 @@ These are fits files with 6 columns.
 5: redshift error
 6: SN
 
-The S/N was determined by the PZWAV considering the signal of the cluster in comparison with the distribution of galaxies of all the redshift slice.
+The S/N was determined by the PZWAV considering the signal of the cluster in comparison with the distribution of galaxies of the redshift slice.
 
 # reference
 

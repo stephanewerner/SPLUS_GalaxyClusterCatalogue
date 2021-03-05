@@ -1,0 +1,49 @@
+
+May 28 18:59: IMCOMBINE
+  combine = median, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 0.
+                Images     Mode  Scale
+         bias_0001.fits    866.  1.002
+         bias_0002.fits    867.  1.001
+         bias_0003.fits    867.  1.001
+         bias_0004.fits    868.  0.999
+         bias_0005.fits    868.  0.999
+         bias_0006.fits    867.  1.001
+         bias_0007.fits    868.  0.999
+         bias_0008.fits    868.  0.999
+         bias_0009.fits    868.  0.999
+         bias_0010.fits    867.  1.001
+         bias_0011.fits    868.  0.999
+
+  Output image = master_bias, ncombine = 11
+
+May 28 19:00: IMCOMBINE
+  combine = median, scale = mode, zero = none, weight = none
+  reject = avsigclip, mclip = yes, nkeep = 1
+  lsigma = 3., hsigma = 3.
+  blank = 1.
+                Images     Mode  Scale
+   flat_field_0000.fits  11193.  1.015
+   flat_field_0001.fits  11293.  1.006
+   flat_field_0002.fits  11392.  0.997
+   flat_field_0003.fits  11374.  0.999
+   flat_field_0004.fits  11319.  1.004
+   flat_field_0005.fits  11407.  0.996
+   flat_field_0006.fits  11389.  0.997
+   flat_field_0007.fits  11412.  0.995
+   flat_field_0008.fits  11405.  0.996
+   flat_field_0009.fits  11414.  0.995
+
+  Output image = master_flat, ncombine = 10
+stephane_ngc5253spec_0009.fits: May 28 19:34 Zero level correction image is master_bias.fits
+flatn.fits: May 28 19:34 Zero level correction image is master_bias.fits
+stephane_ngc5253spec_0009.fits: May 28 19:34 Flat field image is flatn.fits with scale=1.
+
+REIDENTIFY: NOAO/IRAF V2.16 stephanewerner@SW Tue 11:46:46 29-May-2018
+
+REIDENTIFY: NOAO/IRAF V2.16 stephanewerner@SW Tue 11:47:32 29-May-2018
+
+REIDENTIFY: NOAO/IRAF V2.16 stephanewerner@SW Tue 11:47:55 29-May-2018
+[stephane_ngc_ccdproc] refspec1='hear_ngc.0001'

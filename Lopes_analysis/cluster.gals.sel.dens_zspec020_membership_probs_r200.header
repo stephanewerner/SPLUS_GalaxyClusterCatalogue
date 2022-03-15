@@ -1,0 +1,45 @@
+#
+# 1) RA (deg)
+# 2) DEC (deg)
+# 3) uJAVA [apparent magnitude]
+# 4) J0378 [apparent magnitude]
+# 5) J0395 [apparent magnitude]
+# 6) J0410 [apparent magnitude]
+# 7) J0430 [apparent magnitude]
+# 8) gSDSS [apparent magnitude]
+# 9) J0515 [apparent magnitude]
+# 10) rSDSS [apparent magnitude]
+# 11) J0660 [apparent magnitude]
+# 12) iSDSS [apparent magnitude]
+# 13) J0861 [apparent magnitude]
+# 14) zSDSS [apparent magnitude]
+# 15) zspec
+# 16) zspec-err
+# 17) velocity (km/s)
+# 18) velocity-err (km/s)
+# 19) R (deg) [radial offset]
+# 20) Rmpc (Mpc) [radial offset in Mpc]
+# 21) Velocity offset (km/s) [relative to the cluster central velocity]
+# 22) Flagm [0 = member; 1 = interloper; spectroscopic classification]
+# 23) LOG10(SIGMA_5)
+# 24) SIGMA_5 (gals/Mpc^2) [local galaxy density]
+# 25) Mg [absolute magnitue]
+# 26) Mr [absolute magnitue]
+# 27) (g-r)_0 [rest-frame color]
+# 28) Radius/R200 [distance to the cluster center normalized by R200] 
+# 29) Velocity offset/VDISP [Velocity offset normalized by the velocity dispersion of the cluster]
+# 30) zphot 
+# 31) zphot_err
+# 32) Delta_z = (zphot - zspec_cls)/(1 + zspec_cls)
+# 33) Nmemb-200 [number of spectroscopic members within R200]
+# 34) R500 (Mpc) [Physical radius of the cluster to which the galaxy belong]
+# 35) R200 (Mpc) [Physical radius of the cluster to which the galaxy belong]
+# 36) M200 (10^14 M_sun) [Mass of the cluster to which the galaxy belong]
+# 37) Vdisp (km/s) [Velocity dispersion of the cluster to which the galaxy belong]
+# 38) zspec_cls
+# 39) cluster-index
+# 40) SN
+# 41) iflag [0 - member; 1 - intruder; photometric classification]
+# 42) probm (probability of being member)
+# 43) probi (probability of being intruder)
+# 44) gal_index [iDR3_ID]

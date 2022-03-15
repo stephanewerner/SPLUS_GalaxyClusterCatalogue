@@ -1,0 +1,35 @@
+#
+# 1) RA (deg)
+# 2) DEC (deg)
+# 3) uJAVA [apparent magnitude]
+# 4) J0378 [apparent magnitude]
+# 5) J0395 [apparent magnitude]
+# 6) J0410 [apparent magnitude]
+# 7) J0430 [apparent magnitude]
+# 8) gSDSS [apparent magnitude]
+# 9) J0515 [apparent magnitude]
+# 10) rSDSS [apparent magnitude]
+# 11) J0660 [apparent magnitude]
+# 12) iSDSS [apparent magnitude]
+# 13) J0861 [apparent magnitude]
+# 14) zSDSS [apparent magnitude]
+# 15) R (deg) [radial offset]
+# 16) Rmpc (Mpc) [radial offset in Mpc]
+# 17) LOG10(SIGMA_5)
+# 18) SIGMA_5 (gals/Mpc^2) [local galaxy density]
+# 19) Mg [absolute magnitue]
+# 20) Mr [absolute magnitue]
+# 21) (g-r)_0 [rest-frame color]
+# 22) Radius/R200 [distance to the cluster center normalized by R200] 
+# 23) zphot 
+# 24) zphot_err
+# 25) Delta_z = (zphot - zspec_cls)/(1 + zspec_cls)
+# 26) prob_gal
+# 27) R200 (Mpc)
+# 28) zspec_cls
+# 29) cluster-index
+# 30) SN
+# 31) iflag [0 - member; 1 - intruder; photometric classification]
+# 32) probm (probability of being member)
+# 33) probi (probability of being intruder)
+# 34) gal_index [iDR3_ID]

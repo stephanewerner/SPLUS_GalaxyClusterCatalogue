@@ -1,4 +1,4 @@
-# SPLUS Galaxy Cluster Catalogue
+# S-PLUS Galaxy Cluster Catalogue
 Here you can find the first version of the S-PLUS Galaxy Clusters and Groups Catalogue using PzWav.
 
 # about the files

@@ -10,7 +10,7 @@ The first one have all the clusters with SN>4.0, 1.3<DEC<1.3 and -45.0<RA<60.0 (
 ![](https://github.com/stephanewerner/SPLUS_GalaxyClusterCatalogue/blob/main/SPLUS_DR1_catalogue.png)
 
 
-The second table contains all the detections made by PZWAV, without a S/N cut. As shown in Werner et al submitted, the completeness is low for this table, and there are other issues as discussed in the paper.  
+The second table contains all the detections made by PzWav, without a S/N cut. As shown in Werner et al submitted, the completeness is low for this table, and there are other issues as discussed in the paper.  
 
 
 # about the columns

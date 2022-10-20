@@ -1,20 +1,20 @@
-# S-PLUS Galaxy Cluster Catalogue
+# S-PLUS Galaxy Clusters and Groups Catalogue
 Here you can find the first version of the S-PLUS Galaxy Clusters and Groups Catalogue using PzWav. We ran PzWav using S-PLUS DR1 data.
 There was an analysis of membership and new cluster detections for clusters with S/N>5.0, so for these clusters we have additional information as R_{200}, M_{200}, number of members etc.
 
-# about the files
+# About the files
 
-There is one main table with the clusters: SPLUS_GalaxyClusterCatalogue.fits. 
+The main file with galaxy clusters and groups is SPLUS_GalaxyClusterCatalogue.fits. 
 
-It has all clusters with SN>3.3, 1.3<DEC<1.3 and -45.0<RA<60.0 (we excluded the galactic plane area), and 0.0<z<0.4. However, as discussed in Werner et al submitted, the clusters with z<0.1 is not included in our main catalogue.
+It has all clusters with SN>3.3, 1.3<DEC<1.3 and -45.0<RA<60.0 (we excluded the galactic plane area), and 0.0<z<0.4. However, as discussed in Werner et al submitted, clusters with z<0.1 are not included in our main catalogue.
 
-A preview of the catalogue can be seen in the figure below. Be aware that depending on the redshift and S/N cuts the completeness and purity of the sample can be low! Check the paper for more information. 
+A preview of the catalogue can be seen in the figure below. Be aware that depending on the redshift and S/N cuts the completeness and purity of the sample can be low! Check out the paper for more information. 
 
 ![](https://github.com/stephanewerner/SPLUS_GalaxyClusterCatalogue/blob/main/SPLUS_DR1_catalogue.png) 
 
-# about the columns
+# About the columns
 
-These are fits files with 6 columns. 
+SPLUS_GalaxyClusterCatalogue.fits has 30 columns as shown below. 
 
 1. S-PLUS cluster ID
 2. PzWav ID
@@ -61,8 +61,8 @@ In the 30th column, each number represents a literature catalogue:
 10. NED database - https://ned.ipac.caltech.edu/
 11. Simbad database - http://simbad.u-strasbg.fr/
 
-A more detailed analysis were made for clusters with S/N>5.0. In the folder Lopes_analysis>October, there are files with more information about the catalogues and their member candidates. 
+A more detailed analysis were made for clusters with S/N>5.0, we made this cut to have a purer sample. In the folder Lopes_analysis>October, there are files with more information about the catalogues and their member candidates. You will find many "nans" in the previous file, because we analyse only a subsample of the clusters.
 
-# reference
+# Reference
 
 For more information about the catalogue see Werner et al submitted or send me an email (stephane.werner@nottingham.ac.uk). 

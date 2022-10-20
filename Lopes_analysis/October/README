@@ -1,0 +1,23 @@
+1) info_4.0mpc_dr3_128cls_wzspecn.dat - list of 128 clusters for which we have enough spectroscopic redshifts for estimating velocity dispersion, R200 and M200.
+
+2) info_4.0mpc_dr3_128cls_wzspec.header - header of the file above
+
+3) cluster.gals.sel.dens_zspec020_membership_probs_r200n.dat - galaxies (with spectroscopic redshifts) in the regions of the clusters listed in (1)
+
+4) cluster.gals.sel.dens_zspec020_membership_probs_r200.header - header of the file above
+
+5) info_rich05mpc_dr3_474cls_awp3n.dat - list of 474 clusters with zphot < 0.230, for which we got photometric membership estimates
+
+The R200 values come from a scaling relation between richness and R200 (derived from spectroscopic data). When richness = 0.0 I set R200 = 0.15 Mpc and R200e = 0.10 Mpc. That was just for writing into this file. So, please ignore those R200 estimates. Actually, for very poor systems the R200 photometric estimate may be meaningless.
+
+6) cluster.gals.sel.dens_zpt023_membership_probs_r200n.dat - galaxies in the regions of the 628 clusters listed in (5).
+
+This file contains all galaxies within R200 (photometric estimate). For systems with very small estimates of R200 (< 0.30 Mpc) I set R200 to this value (0.30 Mpc).
+
+The photometric membership classification for the galaxies above considered the training based on galaxies within R200 and having r <= 19.0. For this case, completeness and purity are C = 90.09 and P = 84.76.
+
+7) cluster.gals.sel.dens_zpt023_membership_probs_r05mpcbn.dat - analogous to the file above (6), but having galaxies within 0.50 Mpc.
+
+The photometric membership classification for the galaxies above considered the training based on galaxies within 0.50 Mpc and having r <= 19.0. For this case, completeness and purity are C = 92.85 and P = 88.72.
+
+8) cluster.gals.sel.dens_zpt023_membership_probs_r05mpc.header - header of the files listed in (6) and (7).

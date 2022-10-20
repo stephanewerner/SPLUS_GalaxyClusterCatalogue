@@ -47,7 +47,7 @@ SPLUS_GalaxyClusterCatalogue.fits has 30 columns as shown below.
 29. If 1 cluster is new, 0 if not
 30. Catalogues the cluster was previous found
 
-In the 30th column, each number represents a literature catalogue:
+In the 30th column, each number represents a literature catalogue/database:
 
 1. ACTpol - Hilton et al. (2020)
 2. 3XMM/SDSS - Takey et al. (2016, 2019)

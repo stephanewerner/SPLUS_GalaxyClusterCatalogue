@@ -65,4 +65,5 @@ A more detailed analysis were made for clusters with S/N>5.0, we made this cut t
 
 # Reference
 
-For more information about the catalogue see Werner et al. (2022) or send me an email (stephane.werner@nottingham.ac.uk). 
+For more information about the catalogue see Werner et al. (2022), the file is attached as Werner_2022.pdf.
+You can also send me an email if you prefer (stephane.werner@nottingham.ac.uk). 

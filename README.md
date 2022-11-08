@@ -61,7 +61,7 @@ In the 30th column, each number represents a literature catalogue/database:
 10. NED database - https://ned.ipac.caltech.edu/
 11. Simbad database - http://simbad.u-strasbg.fr/
 
-A more detailed analysis were made for clusters with S/N>5.0, we made this cut to have a purer sample. In the folder Lopes_analysis>October, there are files with more information about the catalogues and their member candidates. You will find many "nans" in the previous file, because we analyse only a subsample of the clusters.
+A more detailed analysis was made for clusters with S/N>5.0, we made this cut to have a purer sample. In the folder Lopes_analysis>October, there are files with more information about the catalogues and their member candidates. You will find many "nans" in the previous file, because we analyse only a subsample of the clusters.
 
 # Reference
 

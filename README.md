@@ -1,6 +1,6 @@
 # S-PLUS Galaxy Clusters and Groups Catalogue
-Here you can find the first version of the S-PLUS Galaxy Clusters and Groups Catalogue using PzWav. We ran PzWav using S-PLUS DR1 data.
-There was an analysis of membership and new cluster detections for clusters with S/N>5.0, so for these clusters we have additional information as R_{200}, M_{200}, number of members etc.
+Here you can find the first version of the S-PLUS Galaxy Clusters and Groups Catalogue using PzWav (Werner et al. 2022). We ran PzWav using S-PLUS DR1 data.
+There was an analysis of membership and new cluster detections for clusters with S/N>5.0, so for these clusters we have additional information as R<sub>200</sub>, M<sub>200</sub>, number of members etc.
 
 # About the files
 
@@ -65,4 +65,4 @@ A more detailed analysis were made for clusters with S/N>5.0, we made this cut t
 
 # Reference
 
-For more information about the catalogue see Werner et al submitted or send me an email (stephane.werner@nottingham.ac.uk). 
+For more information about the catalogue see Werner et al. (2022) or send me an email (stephane.werner@nottingham.ac.uk). 

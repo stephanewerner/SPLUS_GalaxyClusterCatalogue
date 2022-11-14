@@ -4,9 +4,9 @@ There was an analysis of membership and new cluster detections for clusters with
 
 # About the files
 
-The main file with galaxy clusters and groups is SPLUS_GalaxyClusterCatalogue.fits. 
+The main file with galaxy clusters and groups is SPLUS_GalaxyClusters_MNRAS.fits. It has all clusters with SN>3.3, 1.3<DEC<1.3 and -45.0<RA<60.0 (we excluded the galactic plane area), and 0.1<z<0.4. There is an additional catalogue called SPLUS_GalaxyClusters_full.fits with 0.0<z<0.4. However, as discussed in Werner et al. (2022), clusters with z<0.1 are not included in our main catalogue.
 
-It has all clusters with SN>3.3, 1.3<DEC<1.3 and -45.0<RA<60.0 (we excluded the galactic plane area), and 0.0<z<0.4. However, as discussed in Werner et al. (2022), clusters with z<0.1 are not included in our main catalogue.
+
 
 A preview of the catalogue can be seen in the figure below. Be aware that depending on the redshift and S/N cuts the completeness and purity of the sample can be low! Check out the paper for more information. 
 
@@ -14,7 +14,7 @@ A preview of the catalogue can be seen in the figure below. Be aware that depend
 
 # About the columns
 
-SPLUS_GalaxyClusterCatalogue.fits has 30 columns as shown below. 
+SPLUS_GalaxyClusters_MNRAS.fits has 30 columns as shown below. 
 
 1. S-PLUS cluster ID
 2. PzWav ID
